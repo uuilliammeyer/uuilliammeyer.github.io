@@ -942,7 +942,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
   function Ca() {
     dataLayer.push(arguments)
   }
-  customElements.define("game-toast", Aa), window.dataLayer = window.dataLayer || [], Ca("js", new Date + 1000*60*60*12);
+  customElements.define("game-toast", Aa), window.dataLayer = window.dataLayer || [], Ca("js", new Date);
   Ca("config", "G-2SSGMHY3NP", {
     app_version: null === (Ea = window.wordle) || void 0 === Ea ? void 0 : Ea.hash,
     debug_mode: !1
