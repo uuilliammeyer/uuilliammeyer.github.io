@@ -981,7 +981,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
 
   function getDateWordleIndex(startDate, nowDate) {
     var s = new Date(startDate),
-      t = new Date(new Date(nowDate).getTime() + 1000*60*60*12).setHours(0, 0, 0, 0) - s.setHours(0, 0, 0, 0);
+      t = new Date(new Date(nowDate).getTime() + 1000*60*60*12).setHours(12, 0, 0, 0) - s.setHours(12, 0, 0, 0);
       let num =  Math.round(t / 864e5);
       console.log("Wordle #" + num);
       return num;
